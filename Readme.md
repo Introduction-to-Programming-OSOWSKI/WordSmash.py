@@ -1,16 +1,21 @@
-# **Assignment Title**  
+# **WordSmash**  
 
 ## **Assignment Description**  
-
+Create a function called wordSmash() that takes a given variable a and a given variable b and combines them into one word.
 
 ## **Examples**  
->
+>wordSmash("Cat", "Dog")  
+CatDog  
+
+>wordSmash("Red", "blue")  
+Redblue
 
 ## **Limitations**  
-
+N/A
 ## **Hints**  
-
+N/A
 ## **Concepts**  
+funtions, arguments  
 
 ---
 
