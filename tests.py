@@ -7,7 +7,7 @@ import datetime;
 
 year = 2020
 month = 12
-day = 16
+day = 17
 
 def test_code():
     assert main.wordSmash("Cat", "Dog" == "CatDog"), "Cat + Dog == CatDog failed"
