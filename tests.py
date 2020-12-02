@@ -10,9 +10,9 @@ month = 12
 day = 17
 
 def test_code():
-    assert main.wordSmash("Cat", "Dog" == "CatDog"), "Cat + Dog == CatDog failed"
-    assert main.wordSmash("Red", "blue" == "Redblue"), "Red + blue == Redblue failed"
-    assert main.wordSmash("qqqqq", "wwwww" == "qqqqqwwwww"), "qqqqq + wwwww == qqqqqwwwww failed"
+    assert main.wordSmash("Cat", "Dog") == "CatDog", "Cat + Dog == CatDog failed"
+    assert main.wordSmash("Red", "blue") == "Redblue", "Red + blue == Redblue failed"
+    assert main.wordSmash("qqqqq", "wwwww") == "qqqqqwwwww", "qqqqq + wwwww == qqqqqwwwww failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"
